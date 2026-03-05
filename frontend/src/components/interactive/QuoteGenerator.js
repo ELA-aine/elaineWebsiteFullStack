@@ -46,6 +46,7 @@ function QuoteGenerator() {
 
     useEffect(() => {
         typeoutQuote(currentQuote.text);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (

@@ -10,13 +10,14 @@ function MemoryGame() {
 
     useEffect(() => {
         initializeGame();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     useEffect(() => {
         if (matched.length === emojis.length * 2) {
             setGameWon(true);
         }
-    }, [matched]);
+    }, [matched, emojis.length]);
 
     const initializeGame = () => {
         const gameCards = [...emojis, ...emojis].sort(() => Math.random() - 0.5);

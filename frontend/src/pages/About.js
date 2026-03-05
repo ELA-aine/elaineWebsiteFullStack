@@ -185,18 +185,10 @@ function About() {
                 <div style={{ marginTop: '40px', textAlign: 'center' }}>
                     <h3>Social Links</h3>
                     <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap', marginTop: '16px' }}>
-                        <a href="#" style={{ textDecoration: 'none' }}>
-                            <button>🐙 GitHub</button>
-                        </a>
-                        <a href="#" style={{ textDecoration: 'none' }}>
-                            <button>🔗 LinkedIn</button>
-                        </a>
-                        <a href="#" style={{ textDecoration: 'none' }}>
-                            <button>🐦 Twitter</button>
-                        </a>
-                        <a href="#" style={{ textDecoration: 'none' }}>
-                            <button>📸 Instagram</button>
-                        </a>
+                        <button>🐙 GitHub</button>
+                        <button>🔗 LinkedIn</button>
+                        <button>🐦 Twitter</button>
+                        <button>📸 Instagram</button>
                     </div>
                 </div>
             </section>
