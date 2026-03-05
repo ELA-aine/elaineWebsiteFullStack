@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/elaineWebsiteFullStack/static/css/main.60907cbb.css",
+    "main.js": "/elaineWebsiteFullStack/static/js/main.01ce7907.js",
+    "index.html": "/elaineWebsiteFullStack/index.html",
+    "main.60907cbb.css.map": "/elaineWebsiteFullStack/static/css/main.60907cbb.css.map",
+    "main.01ce7907.js.map": "/elaineWebsiteFullStack/static/js/main.01ce7907.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60907cbb.css",
+    "static/js/main.01ce7907.js"
+  ]
+}
